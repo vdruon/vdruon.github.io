@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<title>Valentin DRUON - Online Resume</title>
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="resources/style.css" />
+	</head>
+	<body>
+		<header>
+      <div class="container">
+				<nav class="navbar">
+          <div class="navbar-header">
+            <img src="superman.png" alt="Superman" id="superman-brand"/>
+          </div>
+					<ul id="anchors" class="navbar-pills pull-right">
+						<li><a href="#introduction"><span class="code-pink">def</span> <span class="code-green">home</span></a></li>
+						<li><a href="#experience"><span class="code-pink">def</span> <span class="code-green">experience</span></a></li>
+						<li><a href="#skills"><span class="code-pink">def</span> <span class="code-green">skills</span></a></li>
+            <li><a href="#manifest"><span class="code-pink">def</span> <span class="code-green">manifest</span></a></li>
+						<li><a href="#contact"><span class="code-pink">def</span> <span class="code-green">contact</span></a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+    <section id="introduction">
+      <div class="container">
+        <div class="row">
+          <h1 class="hidden">Introduction</h1>
+          <div class="col-md-5 col-xs-12">
+            <article id="code-introduce">
+              <span class="code-pink">class</span> Me <br/>
+                &nbsp;&nbsp;<span class="code-pink">attr_accessor</span> <span class="code-purple">:name</span>, <span class="code-purple">:hobbies</span>, <span class="code-purple">:aspiration</span> <br/>
+                <br/>
+                &nbsp;&nbsp;<span class="code-pink">def</span> <span class="code-green">initialize</span> <br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;@name <span class="code-pink">=</span> <span class="code-yellow">"Valentin DRUON"</span> <br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;@hobbies <span class="code-pink">=</span> <span class="code-yellow">["Guitare", "Coding", "Learning", "Les Mis&eacute;rables"]</span> <br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;@aspiration <span class="code-pink">=</span> <span class="code-yellow">"get a first significant experience in Ruby on Rails development"</span> <br/>
+                &nbsp;&nbsp;<span class="code-pink">end</span> <br/>
+                <br/>
+                &nbsp;&nbsp;<span class="code-pink">def</span> <span class="code-green">introduce</span> <br/>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">"Hi ! I'm #{@name}, a french student in Software Bachelor of Engineering, who aspire to #{@aspiration}.<br/>&nbsp;&nbsp;&nbsp;&nbsp; I'm fond of #{@hobbies.join(',')} and Superman above all."</span> <br/>
+                &nbsp;&nbsp;<span class="code-pink">end</span> <br/>
+              <span class="code-pink">end</span> <br/>
+            </article>
+          </div>
+          <div class="col-md-7 col-xs-12">
+            <article id="text-introduce">
+              <p>
+                <h2>Hi I'm Valentin DRUON, a french developer, self-taught and self motivated, english lover, loving everything about new technologies.
+                I'm currently seeking a first significant Ruby On Rails developer 5 months internship in England, where I aspire to build my future career.</h2>
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h1 class="hidden">Experience</h1>
+
+      <object type="image/svg+xml" data="resources/img/experience.svg" height="500" width="100%" id="experience-svg">
+      </object>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-1 col-xs-3 text-center">
+            <div class="skill-icon" id="terminal"></div>
+          </div>
+          <div class="col-sm-5 col-xs-9 skills-row">
+            <h2>Environment</h2>
+            <p>MAC OS X Mavericks, Sublime Text 2, Pixelmator.</p>
+          </div>
+          <div class="col-sm-1 col-xs-3 text-center">
+            <div class="skill-icon" id="github"></div>
+          </div>
+          <div class="col-sm-5 col-xs-9 skills-row">
+            <h2>Tools</h2>
+            <p>Using Github for versioning is very important for collaborative working. Awareness to Git Flow.</p>
+          </div>
+        </div>  
+        <div class="row">        
+          <div class="col-sm-1 col-xs-3 text-center">
+            <div class="skill-icon" id="js"></div>
+          </div>
+          <div class="col-sm-5 col-xs-9 skills-row">
+            <h2>JavaScript</h2>
+            <p>JavaScript is now used in every web projects, as well as in libraries or as native code. As a web developer, JavaScript coding is part of my job.</p>
+          </div>
+          <div class="col-sm-1 col-xs-3 text-center">
+            <div class="skill-icon" id="markup"></div>
+          </div>
+          <div class="col-sm-5 col-xs-9 skills-row">
+            <h2>HTML</h2>
+            <p>From templates to pure HTML, this markup language is part of web developer life.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1 col-xs-3 text-center">
+            <div class="skill-icon" id="ruby"></div>
+          </div>
+          <div class="col-sm-5 col-xs-9 skills-row">
+            <h2>Ruby / Ruby On Rails</h2>
+            <p>Increasingly popular technology, Ruby was able to make its place in web most used development languages. That's why I want to get a first experience in Ruby web development.</p>
+          </div>
+          <div class="col-sm-1 col-xs-3 text-center">
+            <div class="skill-icon" id="database"></div>
+          </div>
+          <div class="col-sm-5 col-xs-9 skills-row">
+            <h2>Databases</h2>
+            <p>Who can pretend never to need any database in his developer life ? I already worked with Oracle, MySQL, PostgreSQL, SQL Server databases and am currently being sensitized to NoSQL ones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="manifest">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <div id="programmer-rules">
+              <ul>
+                <li>Have to work in a team, you will. </li>
+                <li>Communicate with your teammates, you must.</li>
+                <li>Have to be proactive, you will.</li>
+                <li>You, imaginative, will be.</li>
+                <li>Follow Test Driven Development, you will.</li>
+                <li>The best developer ever, you will be.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+    </section>
+
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://raw.githubusercontent.com/flesler/jquery.scrollTo/master/jquery.scrollTo.min.js"></script>
+    <script src="https://raw.githubusercontent.com/flesler/jquery.localScroll/master/jquery.localScroll.min.js"></script>
+    <script src="resources/js/global.js"></script>
+	</body>
+</html>

@@ -1,0 +1,180 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial;
+	background-color: rgb(218, 223, 225);
+	margin: 0;
+}
+
+.red {
+	color : rgb(217, 30, 24);
+}
+
+.grey {
+	color: rgb(218, 223, 225);
+}
+
+.grey2 {
+  color: rgb(52,73,94);
+}
+
+.back-red {
+	background-color: rgb(217, 30, 24);
+}
+
+.back-grey {
+	background-color: rgb(218, 223, 225);
+}
+
+.code-pink {
+	color: rgb(247, 0, 94);
+}
+
+.code-green {
+	color: rgb(150,227,9);
+}
+
+.code-yellow {
+  color: rgb(224, 215, 86);
+}
+
+.code-purple {
+  color: rgb(147,91,245);
+}
+
+header {
+  background-color: rgb(34, 49, 63);
+}
+
+img#superman-brand {
+  width: 50px;
+  float: left;
+  padding-top: 20px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+}
+
+ul#anchors {
+	list-style: none;
+	color: #ffffff;
+	padding-top: 25px;
+}
+
+	ul#anchors > li {
+		display: inline-block;
+		padding: 0 10px;
+		cursor: pointer;
+	}
+
+	ul#anchors > li:hover {
+
+	}
+
+section {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  position: relative;
+}
+
+
+section#introduction {
+  background-color: rgba(52, 73, 94, 1);
+}
+
+  article#code-introduce {
+    color: #ffffff;
+    display: block;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: rgb(34,49,63);
+  }
+
+  article#text-introduce {
+    color: #fff;
+    display: block;
+    max-width: 850px;
+    margin-right: 150px;
+    margin-top: 80px;
+  }
+
+    article#text-introduce h2 {
+      font-weight: 100;
+      font-size: 22px;
+      line-height: 1.4;
+    }
+
+section#experience {
+  padding: 15px;
+  height: 600px;
+  background-color: #fff;
+}
+
+section#skills {
+  padding: 30px;
+  background-color: rgba(52, 73, 94, 1);
+}
+
+section#manifest {
+  padding: 15px;
+  background-color: rgba(255,255,255, 1);
+}
+
+section#contact {
+  padding: 15px;
+  height: 600px;
+  background-color: rgba(52, 73, 94, 1);
+}
+
+.skill-icon {
+  background-image: url("img/skills-icons.png");
+  width: 65px;
+  height: 65px;
+}
+
+  .skill-icon#terminal {
+    background-position: -125px -78px;
+  }
+
+  .skill-icon#github {
+    background-position: -38px -161px;
+  }
+
+  .skill-icon#js {
+    background-position: -299px -78px;
+  }
+
+  .skill-icon#ruby {
+    background-position: -125px -161px;
+  }
+
+  .skill-icon#markup {
+    background-position: -211px -161px;
+  }
+
+  .skill-icon#database {
+    background-position: -299px -161px;
+  }
+
+.skills-row {
+  color: rgba(255,255,255,1);
+  margin-bottom: 20px;
+}
+
+div#programmer-rules {
+  background-color: rgba(235,226,197, 1);
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+  div#programmer-rules > ul {
+    list-style-type: none;
+    text-indent: -20px;
+    color: rgba(192, 57, 43, 1);
+    line-height: 3.5;
+    font-weight: 300;
+    font-size: 1.2em;
+  }
