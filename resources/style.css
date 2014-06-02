@@ -1,6 +1,5 @@
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial;
-	background-color: rgb(218, 223, 225);
 	margin: 0;
 }
 
@@ -14,6 +13,10 @@ body {
 
 .grey2 {
   color: rgb(52,73,94);
+}
+
+.white {
+  color: rgb(255,255,255);
 }
 
 .back-red {
@@ -43,6 +46,16 @@ body {
 header {
   background-color: rgb(34, 49, 63);
 }
+
+h1 {
+  margin: 10px 10px 40px 10px;
+}
+
+img#ruby-scroll {
+  position: fixed;
+  z-index: 2;
+  opacity: 0.8;
+} 
 
 img#superman-brand {
   width: 50px;
@@ -93,12 +106,28 @@ section#introduction {
     background-color: rgb(34,49,63);
   }
 
+  .indent-2 {
+    padding-left: 10px;
+  }
+
+  .indent-4 {
+    padding-left: 20px;
+  }
+
   article#text-introduce {
     color: #fff;
     display: block;
     max-width: 850px;
     margin-right: 150px;
     margin-top: 80px;
+    margin-left: 50px;
+  }
+
+  @media (max-width:992px)
+  {
+    article#text-introduce {
+      margin-left: 0;
+    }
   }
 
     article#text-introduce h2 {
@@ -110,7 +139,7 @@ section#introduction {
 section#experience {
   padding: 15px;
   height: 600px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 section#skills {
@@ -119,14 +148,14 @@ section#skills {
 }
 
 section#manifest {
-  padding: 15px;
+  padding: 30px;
   background-color: rgba(255,255,255, 1);
 }
 
 section#contact {
   padding: 15px;
-  height: 600px;
   background-color: rgba(52, 73, 94, 1);
+  height: 600px;
 }
 
 .skill-icon {
@@ -165,16 +194,14 @@ section#contact {
 }
 
 div#programmer-rules {
-  background-color: rgba(235,226,197, 1);
-  border-radius: 10px;
   padding: 20px 10px;
+  text-align: center;
 }
 
   div#programmer-rules > ul {
     list-style-type: none;
-    text-indent: -20px;
-    color: rgba(192, 57, 43, 1);
-    line-height: 3.5;
+    color: rgba(52, 73, 94, 1);
+    line-height: 2;
     font-weight: 300;
     font-size: 1.2em;
   }

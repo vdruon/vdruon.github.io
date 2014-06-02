@@ -22,6 +22,8 @@
 			</div>
 		</header>
 
+    <img alt="ruby" id="ruby-scroll" src="resources/img/ruby.png"/>
+
     <section id="introduction">
       <div class="container">
         <div class="row">
@@ -29,17 +31,17 @@
           <div class="col-md-5 col-xs-12">
             <article id="code-introduce">
               <span class="code-pink">class</span> Me <br/>
-                &nbsp;&nbsp;<span class="code-pink">attr_accessor</span> <span class="code-purple">:name</span>, <span class="code-purple">:hobbies</span>, <span class="code-purple">:aspiration</span> <br/>
+                <div class="indent-2"><span class="code-pink">attr_accessor</span> <span class="code-purple">:name</span>, <span class="code-purple">:hobbies</span>, <span class="code-purple">:aspiration</span></div>
                 <br/>
-                &nbsp;&nbsp;<span class="code-pink">def</span> <span class="code-green">initialize</span> <br/>
-                  &nbsp;&nbsp;&nbsp;&nbsp;@name <span class="code-pink">=</span> <span class="code-yellow">"Valentin DRUON"</span> <br/>
-                  &nbsp;&nbsp;&nbsp;&nbsp;@hobbies <span class="code-pink">=</span> <span class="code-yellow">["Guitare", "Coding", "Learning", "Les Mis&eacute;rables"]</span> <br/>
-                  &nbsp;&nbsp;&nbsp;&nbsp;@aspiration <span class="code-pink">=</span> <span class="code-yellow">"get a first significant experience in Ruby on Rails development"</span> <br/>
-                &nbsp;&nbsp;<span class="code-pink">end</span> <br/>
+                <div class="indent-2"><span class="code-pink">def</span> <span class="code-green">initialize</span></div>
+                <div class="indent-4">@name <span class="code-pink">=</span> <span class="code-yellow">"Valentin DRUON"</span></div>
+                <div class="indent-4">@hobbies <span class="code-pink">=</span> <span class="code-yellow">["Guitare", "Coding", "Learning", "Les Mis&eacute;rables"]</span> </div>
+                <div class="indent-4">@aspiration <span class="code-pink">=</span> <span class="code-yellow">"get a first significant experience in Ruby on Rails development"</span> </div>
+                <div class="indent-2"><span class="code-pink">end</span> </div>
                 <br/>
-                &nbsp;&nbsp;<span class="code-pink">def</span> <span class="code-green">introduce</span> <br/>
-                  &nbsp;&nbsp;&nbsp;&nbsp;<span class="code-yellow">"Hi ! I'm #{@name}, a french student in Software Bachelor of Engineering, who aspire to #{@aspiration}.<br/>&nbsp;&nbsp;&nbsp;&nbsp; I'm fond of #{@hobbies.join(',')} and Superman above all."</span> <br/>
-                &nbsp;&nbsp;<span class="code-pink">end</span> <br/>
+                <div class="indent-2"><span class="code-pink">def</span> <span class="code-green">introduce</span> </div>
+                <div class="indent-4"><span class="code-yellow">"Hi ! I'm #{@name}, a french student in Software Bachelor of Engineering, who aspire to #{@aspiration}. I'm fond of #{@hobbies.join(',')} and Superman above all."</span> </div>
+                <div class="indent-2"><span class="code-pink">end</span> </div>
               <span class="code-pink">end</span> <br/>
             </article>
           </div>
@@ -65,6 +67,7 @@
     <section id="skills">
       <div class="container">
         <div class="row">
+          <h1 class="hidden">Skills</h1>
           <div class="col-sm-1 col-xs-3 text-center">
             <div class="skill-icon" id="terminal"></div>
           </div>
@@ -118,7 +121,8 @@
     <section id="manifest">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-xs-12">
+          <h1 class="hidden">Manifest</h1>
+          <div class="col-md-12 col-xs-12">
             <div id="programmer-rules">
               <ul>
                 <li>Have to work in a team, you will. </li>
