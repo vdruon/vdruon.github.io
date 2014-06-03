@@ -8,9 +8,6 @@
 		<header>
       <div class="container">
 				<nav class="navbar">
-          <div class="navbar-header">
-            <img src="superman.png" alt="Superman" id="superman-brand"/>
-          </div>
 					<ul id="anchors" class="navbar-pills pull-right">
 						<li><a href="#introduction"><span class="code-pink">def</span> <span class="code-green">home</span></a></li>
 						<li><a href="#experience"><span class="code-pink">def</span> <span class="code-green">experience</span></a></li>
@@ -21,8 +18,6 @@
 				</nav>
 			</div>
 		</header>
-
-    <img alt="ruby" id="ruby-scroll" src="resources/img/ruby.png"/>
 
     <section id="introduction">
       <div class="container">
@@ -48,8 +43,8 @@
           <div class="col-md-7 col-xs-12">
             <article id="text-introduce">
               <p>
-                <h2>Hi I'm Valentin DRUON, a french developer, self-taught and self motivated, english lover, loving everything about new technologies.
-                I'm currently seeking a first significant Ruby On Rails developer 5 months internship in England, where I aspire to build my future career.</h2>
+                Hi I'm Valentin DRUON, a french developer, self-taught and self motivated, english lover, loving everything about new technologies.
+                I'm currently seeking a first significant Ruby On Rails developer 5 months internship in England, where I aspire to build my future career.
               </p>
             </article>
           </div>
@@ -58,8 +53,12 @@
     </section>
 
     <section id="experience">
-      <h1 class="hidden">Experience</h1>
-
+      <div class="container hidden-large">
+        <div class="row">
+          <h1 class="hidden">Experience</h1>
+          <img alt="Experience" src="resources/img/experience.png" class="img-responsive"/>
+        </div>
+      </div>
       <object type="image/svg+xml" data="resources/img/experience.svg" height="500" width="100%" id="experience-svg">
       </object>
     </section>
@@ -122,7 +121,8 @@
       <div class="container">
         <div class="row">
           <h1 class="hidden">Manifest</h1>
-          <div class="col-md-12 col-xs-12">
+          <div class="col-md-3"></div>
+          <div class="col-md-6 col-xs-12">
             <div id="programmer-rules">
               <ul>
                 <li>Have to work in a team, you will. </li>
@@ -134,14 +134,69 @@
               </ul>
             </div>
           </div>
-          <div class="col-md-6 col-xs-12">
-
-          </div>
+          <div class="col-md-3"></div>
         </div>
       </div>
     </section>
 
     <section id="contact">
+      <div class="container">
+        <div class="row">
+          <h1>Want more info ?</h1>
+        </div>
+        <div class="row">
+          <p>
+            Download my <a href="#">designed resume</a> or my <a href="#">sober one</a> (PDF format).
+          </p>
+        </div>
+        <div class="row" id="form-container">
+          <div class="col-md-6 col-xs-12">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+              <input type="text" id="input-mail" class="form-control input-form" placeholder="Your mail." onblur="colorInput(validateMail(this.value), this);">
+            </div>
+          </div>
+          <div class="col-md-6 col-xs-12">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
+              <input type="text" id="input-phone" class="form-control input-form" placeholder="Your phone number (+33, +44, ...)" onblur="colorInput(validatePhone(this.value), this);">
+            </div>
+          </div>
+          <div class="col-md-12 col-xs-12">
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
+              <textarea class="form-control input-form" id="input-message" rows="5" placeholder="Your message" onblur="colorInput(isNotEmpty(this.value), this);"></textarea>
+            </div>
+          </div>
+          <div class="col-md-1 col-xs-3">
+            <input type="button" id="input-submit" class="btn button-form" value="Send message"/>
+          </div>
+        </div>
+        <div class="row">
+          <div id="social-lines">
+            <div class="social-line">
+              <div class="social-icon" id="social-gplus"></div>
+              <span><a href="https://plus.google.com/u/0/116557321324073009900/posts/p/pub" target="_blank">Google+</a></span>
+            </div>
+            <div class="social-line">
+              <div class="social-icon" id="social-linkedin"></div>
+              <span><a href="https://www.linkedin.com/profile/view?id=306198279&trk=nav_responsive_tab_profile" target="_blank">LinkedIn</a></span>
+            </div>
+            <div class="social-line">
+              <div class="social-icon" id="social-twitter"></div>
+              <span><a href="https://twitter.com/ValentinDruon" target="_blank">@ValentinDruon</a></span>
+            </div>
+            <div class="social-line">
+              <div class="social-icon" id="social-skype"></div>
+              <span>valentin.druon</span>
+            </div>
+            <div class="social-line">
+              <div class="social-icon" id="social-github"></div>
+              <span><a href="https://github.com/vdruon" target="_blank">vdruon</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
 		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

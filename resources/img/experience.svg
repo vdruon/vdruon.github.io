@@ -6,25 +6,25 @@ xmlns="http://www.w3.org/2000/svg"
 xmlns:xlink="http://www.w3.org/1999/xlink">
 
    <text id="scolarship" x="1228" y="355" fill="rgb(36,166,167)" stroke-width="0.3" font-family="Helvetica Neue" font-weight="bold">2014</text>
-   <image x="900" y="0" width="400" height="400" xlink:href="pixeo.png" style="visibility: hidden">
+   <image x="1050" y="0" width="400" height="400" xlink:href="pixeo.png" style="visibility: hidden">
     <animateTransform id="pixeo_anim" attributeName="transform" attributeType="XML" type="scale" from="0" to="1" begin="partenord_anim.end+1s" dur="1s" fill="freeze" />
     <set attributeName="visibility" attributeType="XML" begin="partenord_anim.end+1s" from="hidden" to="visible" fill="freeze"/>
    </image>
    <text id="scolarship" x="828" y="355" fill="rgb(36,166,167)" stroke-width="0.3" font-family="Helvetica Neue" font-weight="bold">2013</text>
-   <image x="500" y="0" width="400" height="400" xlink:href="partenord.png" style="visibility: hidden">
+   <image x="650" y="0" width="400" height="400" xlink:href="partenord.png" style="visibility: hidden">
     <animateTransform id="partenord_anim" attributeName="transform" attributeType="XML" type="scale" from="0" to="1" begin="adapep_anim.end+1s" dur="1s" fill="freeze" />
     <set attributeName="visibility" attributeType="XML" begin="adapep_anim.end+1s" from="hidden" to="visible" fill="freeze"/>
    </image>
    <text id="scolarship" x="428" y="355" fill="rgb(36,166,167)" stroke-width="0.3" font-family="Helvetica Neue" font-weight="bold">2012</text>
-   <image x="100" y="0" width="400" height="400" xlink:href="adapep.png" style="visibility: hidden">
+   <image x="250" y="0" width="400" height="400" xlink:href="adapep.png" style="visibility: hidden">
     <animateTransform id="adapep_anim" attributeName="transform" attributeType="XML" type="scale" from="0" to="1" begin="2s" dur="1s" fill="freeze" />
     <set attributeName="visibility" attributeType="XML" begin="2s" from="hidden" to="visible" fill="freeze"/>
    </image>
-   <path id="school-path" d="M 100,457 L 300,457 L 400,377 L 1500,377" stroke="rgb(204,204,205)" stroke-width="6" fill="none" stroke-linecap="round"/>
+   <path id="school-path" d="M 100,457 L 300,457 L 400,377 L 1450,377" stroke="rgb(204,204,205)" stroke-width="6" fill="none" stroke-linecap="round"/>
    <text id="scolarship" x="400" y="447" fill="rgb(36,166,167)" font-size="24" font-family="Helvetica Neue" font-weight="bold">Scolarship at Exia.CESI, Arras, France - Software Bachelor of Engineering</text>
    <text id="text_graduated" x="1555" y="307" fill="rgb(36,166,167)" stroke-width="0.3" font-family="Helvetica Neue" font-weight="bold">2016</text>
    <image x="1500" y="317" width="150" height="100" xlink:href="graduated.png"></image>
-   <line x1="100" y1="457" x2="1775" y2="457" stroke="rgb(204,204,205)" stroke-width="6" stroke-linecap="round"/>
+   <line x1="100" y1="457" x2="1675" y2="457" stroke="rgb(204,204,205)" stroke-width="6" stroke-linecap="round"/>
    <circle r="12" id="circle_first" class="POI" fill="rgb(36,166,167)" cy="377" cx="447">
    </circle>
     <circle r="12" id="circle_second" class="POI" fill="rgb(36,166,167)" cy="377" cx="847">

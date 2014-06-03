@@ -51,24 +51,11 @@ h1 {
   margin: 10px 10px 40px 10px;
 }
 
-img#ruby-scroll {
-  position: fixed;
-  z-index: 2;
-  opacity: 0.8;
-} 
-
-img#superman-brand {
-  width: 50px;
-  float: left;
-  padding-top: 20px;
+h2 {
+  color: rgb(194,56,36);
 }
 
-nav {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	display: block;
-}
+nav {}
 
 ul#anchors {
 	list-style: none;
@@ -82,20 +69,20 @@ ul#anchors {
 		cursor: pointer;
 	}
 
-	ul#anchors > li:hover {
-
+	ul#anchors > li > a:hover {
+    text-decoration: none;
 	}
 
 section {
   display: block;
   width: 100%;
-  padding: 30px;
+  padding: 40px;
   position: relative;
 }
 
 
 section#introduction {
-  background-color: rgba(52, 73, 94, 1);
+  background-color: rgb(52,73,94);
 }
 
   article#code-introduce {
@@ -115,7 +102,7 @@ section#introduction {
   }
 
   article#text-introduce {
-    color: #fff;
+    color: rgba(255,255,255, 1);
     display: block;
     max-width: 850px;
     margin-right: 150px;
@@ -130,32 +117,45 @@ section#introduction {
     }
   }
 
-    article#text-introduce h2 {
+    article#text-introduce p {
       font-weight: 100;
       font-size: 22px;
       line-height: 1.4;
     }
 
 section#experience {
-  padding: 15px;
-  height: 600px;
-  background-color: rgba(255, 255, 255, 1);
 }
 
 section#skills {
-  padding: 30px;
-  background-color: rgba(52, 73, 94, 1);
 }
 
 section#manifest {
-  padding: 30px;
-  background-color: rgba(255,255,255, 1);
 }
 
 section#contact {
-  padding: 15px;
-  background-color: rgba(52, 73, 94, 1);
-  height: 600px;
+  background-color: rgb(52,73,94);
+}
+
+#experience-svg {
+  display: none;
+}
+
+.hidden-large {
+  display: none;
+}
+
+@media (min-width: 1700px)
+{
+  #experience-svg {
+    display: block;
+  }
+}
+
+@media(max-width:1700px)
+{
+  .hidden-large {
+    display: block;
+  }
 }
 
 .skill-icon {
@@ -189,7 +189,7 @@ section#contact {
   }
 
 .skills-row {
-  color: rgba(255,255,255,1);
+  color: rgba(52,73,94,1);
   margin-bottom: 20px;
 }
 
@@ -199,9 +199,132 @@ div#programmer-rules {
 }
 
   div#programmer-rules > ul {
-    list-style-type: none;
+    list-style-image: url("img/ruby.png");
     color: rgba(52, 73, 94, 1);
     line-height: 2;
     font-weight: 300;
     font-size: 1.2em;
+    text-indent: 60px;
   }
+
+#form-container {
+  color: rgb(255,255,255);
+  margin-top: 20px;
+}
+
+.input-form, .button-form {
+  background: transparent;
+  border: 1px solid rgb(255,255,255);
+  color: rgb(255,255,255);
+}
+
+.button-form {
+  color: rgb(255,255,255);
+}
+
+.button-form:hover {
+  color: rgb(255,255,255);
+}
+
+.input-group-addon {
+  background: transparent;
+  border: 1px solid rgb(255,255,255);
+}
+
+.form-control:focus{
+  border-color: rgb(30, 139, 195);
+  box-shadow: 0 0px 0px rgb(194,56,36) inset, 0 0 0px rgb(194,56,36);
+}
+
+.input-group {
+  margin-bottom: 5px;
+}
+
+.glyphicon {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+input.valid, textarea.valid {
+  border-color: rgb(38, 194, 129);
+}
+
+input.invalid, textarea.invalid {
+  border-color: rgb(194,56,36);
+}
+
+section#contact h1, section#contact p {
+  color: rgb(255,255,255);
+}
+
+section#contact h1 {
+  margin-bottom: 20px;
+}
+
+section#contact p {
+  margin-left: 15px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+section#contact p > a {
+  color: rgb(194,56,36);
+}
+
+section#contact p > a:hover {
+  text-decoration: none;
+}
+
+#social-lines {
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.social-line {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-line > span {
+  color: rgb(255,255,255);
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.social-line > span > a {
+  color: rgb(255,255,255);
+}
+
+.social-line > span > a:hover {
+  text-decoration: none;
+  color: rgb(194,56,36);
+}
+
+.social-icon {
+  background-image: url("img/social-icons.png");
+  width: 44px;
+  height: 44px;
+  display: table-cell;
+}
+
+#social-gplus {
+  background-position: -134px -14px;
+}
+
+#social-linkedin {
+  background-position: -71px -69px;
+}
+
+#social-twitter {
+  background-position: -193px -14px;
+}
+
+#social-skype {
+  background-position: -14px -14px;
+}
+
+#social-github {
+  background-position: -14px -69px;
+}
