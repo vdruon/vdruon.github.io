@@ -1,6 +1,8 @@
 #body {
+  word-wrap: break-word;
   overflow: hidden;
 }
+
 .cmd .clipboard {
     position: absolute;
     bottom: 0;

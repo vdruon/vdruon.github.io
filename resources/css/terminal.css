@@ -354,7 +354,7 @@ line-height: 1.5em;
     font-family: Andale Mono, monospace;  line-height: 1em;
     font-size:13px;
     float: left;
-    width: 100%;
+    width: 98%;
     min-height:600px;
     background:#ffffff;
     padding:10px;
@@ -376,7 +376,7 @@ line-height: 1.5em;
   100% {  background:rgba(99,222,0,0);  }
 }
 .cursor {
-  background:#63de00; 
+  background:#000000; 
   display:inline-block;
   width:11px;
   height:19px;
