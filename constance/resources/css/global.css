@@ -1,3 +1,6 @@
+#container {
+  display: none;
+}
 .slide {
   color: #ffffff;
   height: 508px;
