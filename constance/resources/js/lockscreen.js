@@ -95,7 +95,7 @@ function wrongPasswd(){
 
 function passedAnimation(){
   $("#lockscreen").fadeOut(function() {
-    $("#container").css("display", "block");
+    $("#container-hide").css("display", "block");
   });
 }
 

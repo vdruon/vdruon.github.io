@@ -1,0 +1,621 @@
+h2, h3 {
+    font-size: 1em
+}
+
+#home
+h3 {
+    font-style: italic
+}
+
+p.submitted {
+    float: right;
+    margin-top: 1.2em;
+    font-size: 0.9em;
+    color: #7b7474
+}
+
+p.further {
+    text-align: right
+}
+
+#container {
+    background: transparent url('http://www.arpia.be/book/img/book-bgd.jpg') no-repeat;
+    width: 826px;
+    height: 576px;
+    margin: auto;
+    clear: both;
+    display: block;
+    position: relative
+}
+
+#page-container {
+    display: block;
+    position: absolute;
+    top: 7px;
+    bottom: 9px;
+    left: 23px;
+    min-height: 560px;
+    width: 780px;
+    overflow: hidden
+}
+
+#page-turn {
+    display: none;
+    position: absolute;
+    width: 128px;
+    height: 560px;
+    background: transparent url('http://www.arpia.be/book/img/page-turn.png') no-repeat;
+    background-position: 0 0
+}
+
+#logo dl dt, .separator, #bookmark {
+    background: transparent url('http://www.arpia.be/book/img/sprite.png') no-repeat
+}
+
+#logo {
+    position: absolute;
+    top: 60px;
+    left: 56px;
+    text-align: center
+}
+
+#logo
+dl {
+    width: 210px;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px
+}
+
+#logo dl
+dt {
+    height: 35px;
+    width: 106px;
+    margin: 0;
+    margin-left: 52px;
+    display: block;
+    background-position: -9px -198px
+}
+
+#logo dl dt
+span {
+    position: absolute;
+    left: -9999px
+}
+
+#logo dl
+dd {
+    margin: 0;
+    margin-top: 20px;
+    letter-spacing: -1px;
+    line-height: 2em;
+    padding: 0;
+    font-size: 2em
+}
+
+.nav {
+    top: 20px;
+    left: 56px;
+    width: 710px;
+    position: absolute;
+    z-index: 10
+}
+
+.nav
+ul {
+    list-style: none;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center
+}
+
+.nav ul li, .nav ul li a, .nav ul li a:hover, .nav ul li a:visited {
+    display: inline;
+    height: 35px;
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #000
+}
+
+.nav ul
+li {
+    padding: 0;
+    margin: 0
+}
+
+.nav ul li
+a {
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.4;
+    -webkit-transition: opacity 0.5s linear;
+    -moz-transition: opacity 0.5s linear;
+    -o-transition: opacity 0.5s linear
+}
+
+#home .nav ul li
+a {
+    opacity: 1
+}
+
+#journal
+a#navjour {
+    opacity: 0.7
+}
+
+#novels
+a#navnove {
+    opacity: 0.7
+}
+
+#game
+a#navgame {
+    opacity: 0.7
+}
+
+#music
+a#navmusi {
+    opacity: 0.7
+}
+
+#design
+a#navdesi {
+    opacity: 0.7
+}
+
+#droides
+a#navdroi {
+    opacity: 0.7
+}
+
+#contact
+a#navcont {
+    opacity: 0.7
+}
+
+.nav ul li a:hover {
+    opacity: 1 !important
+}
+
+#navgame {
+    margin-right: 90px
+}
+
+#home
+#navgame {
+    margin: 0
+}
+
+#home #header
+.nav {
+    position: absolute;
+    top: 190px;
+    left: 56px;
+    width: 310px;
+    text-align: left;
+    z-index: 10
+}
+
+#home #header .nav
+ol {
+    list-style: none;
+    letter-spacing: -1px;
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0
+}
+
+#home #header .nav ol
+li {
+    list-style-position: inside;
+    font-size: 1.6em;
+    font-weight: normal;
+    margin-bottom: 0.5em
+}
+
+#home #header .nav ol li:before {
+    display: inline-block;
+    content: counter(item, upper-roman) ".";
+    counter-increment: item;
+    width: 3em
+}
+
+#home #header .nav ol li
+span {}
+
+#home #header .nav ol li a, #home #header .nav ol li a:hover, #home #header .nav ol li a:visited {
+    height: 1.6em;
+    text-decoration: none;
+    color: #000
+}
+
+#article
+.nav {
+    position: relative;
+    display: block;
+    height: 0;
+    top: 10px;
+    left: -40px;
+    z-index: 10;
+    width: 790px
+}
+
+.pagenumbers {
+    position: absolute;
+    width: 630px;
+    z-index: 1;
+    top: 30px;
+    left: 80px;
+    font-size: 1em;
+    letter-spacing: normal;
+    font-weight: normal;
+    color: #000
+}
+
+.pagenumbers
+#pageleftnumber {
+    float: left
+}
+
+.pagenumbers
+#pagerightnumber {
+    float: right
+}
+
+ul.arrows {
+    height: 0px;
+    z-index: 10
+}
+
+ul.arrows li, ul.arrows li a, ul.arrows li a:hover, ul.arrows li a:visited {
+    height: 16px;
+    width: 92px;
+    display: block;
+    text-decoration: none;
+    font-size: 1em;
+    letter-spacing: normal;
+    font-weight: normal;
+    color: #000;
+    z-index: 10
+}
+
+ul.arrows
+li {
+    padding: 0
+}
+
+ul.arrows li
+a {
+    outline: none;
+    border: 0px;
+    opacity: 1;
+    padding: 0px
+    0px 46px 7px
+}
+
+ul.arrows
+li#previous {
+    float: left;
+    visibility: hidden;
+    background-position: 30px -256px
+}
+
+ul.arrows
+li#next {
+    float: right;
+    background-position: -62px -256px
+}
+
+#bookmark {
+    position: absolute;
+    width: 61px;
+    height: 192px;
+    display: block;
+    background-position: -63px 0;
+    left: 381px;
+    z-index: 10
+}
+
+#home
+#bookmark {
+    position: absolute;
+    width: 63px;
+    height: 193px;
+    display: block;
+    background-position: 0px -1px;
+    left: 319px;
+    z-index: 10
+}
+
+#bookmark
+a {
+    background: none;
+    width: 61px;
+    height: 192px;
+    display: block
+}
+
+#bookmark
+span {
+    position: absolute;
+    margin-left: -9999px
+}
+
+#home #bookmark
+a {
+    display: none
+}
+
+.separator {
+    display: block;
+    clear: both;
+    height: 22px;
+    width: 124px;
+    background-position: 0px -232px;
+    margin-left: 93px
+}
+
+#article {
+    position: absolute;
+    top: 60px;
+    left: 56px;
+    text-align: justify;
+    font-size: 1em;
+    z-index: 3
+}
+
+#home
+#article {
+    top: 40px
+}
+
+div.one {
+    height: 435px;
+    width: 710px;
+    overflow: hidden;
+    margin: 0
+}
+
+div#columniser {
+    height: 435px;
+    width: 710px;
+    overflow: visible;
+    margin: 0;
+    opacity: 1
+}
+
+#home div.one, #home
+div#columniser {
+    width: 310px;
+    height: 500px;
+    margin-left: 400px
+}
+
+div.two {
+    column-count: auto;
+    column-width: 310px;
+    column-gap: 90px;
+    -webkit-column-count: auto;
+    -webkit-column-width: 310px;
+    -webkit-column-gap: 90px;
+    -moz-column-count: auto;
+    -moz-column-width: 310px;
+    -moz-column-gap: 90px;
+    height: 430px;
+    overflow: visible;
+    display: block;
+    padding: 0;
+    padding-top: 4px
+}
+
+#home
+div.two {
+    column-count: 1;
+    column-width: 310px;
+    column-gap: 0px;
+    -webkit-column-count: 1;
+    -webkit-column-width: 310px;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 1;
+    -moz-column-width: 310px;
+    -moz-column-gap: 0px;
+    height: 490px;
+    overflow: visible;
+    display: block;
+    padding: 0;
+    padding-top: 4px
+}
+
+div.two
+h2 {
+    margin: 0;
+    padding: 0
+}
+
+#columnified {
+    margin-left: 0;
+    width: 15910px
+}
+
+#home
+#columnified {
+    width: 310px
+}
+
+#footer {
+    position: absolute;
+    left: 14px;
+    bottom: 29px;
+    height: 40px;
+    font-size: 1.2em;
+    color: #7b7474;
+    letter-spacing: -1px;
+    text-align: center
+}
+
+#footer a, #footer a:visited {
+    color: #7b7474;
+    text-decoration: none
+}
+
+#footer a:hover {
+    color: #3b3434;
+    text-decoration: none
+}
+
+#copy {
+    position: absolute;
+    left: 0;
+    font-style: italic;
+    width: 396px
+}
+
+#links {
+    position: absolute;
+    left: 400px;
+    width: 396px
+}
+
+#home
+#copy {
+    position: absolute;
+    left: 0;
+    font-style: italic;
+    width: 198px
+}
+
+#home
+#links {
+    position: absolute;
+    left: 198px;
+    width: 198px
+}
+
+#flip-right, #flip-left {
+    position: absolute;
+    top: -40px;
+    width: 398px;
+    height: 610px;
+    overflow: hidden;
+    z-index: 2
+}
+
+#flip-right {
+    left: 0px;
+    padding: 0px
+    15px 0px 414px
+}
+
+#flip-left {
+    right: 0px;
+    display: none;
+    padding: 0px
+    414px 0px 15px
+}
+
+#right1, #left1, #right2>div, #left2>div, #right2>div>div, #left2>div>div {
+    -webkit-transition-property: -webkit-transform, -webkit-transform-origin;
+    -moz-transition-property: -moz-transform, -moz-transform-origin;
+    -o-transition-property: -o-transform, -o-transform-origin;
+    transition-property: transform, transform-origin;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s
+}
+
+#right1, #right2>div, #right2>div>div, #left2>div>div {
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0
+}
+
+#right1, #left1 {
+    position: absolute;
+    z-index: 2
+}
+
+#right1 {
+    -webkit-transform: translate(-199px, 0) rotate(32deg);
+    -moz-transform: translate(-199px, 0) rotate(32deg);
+    -o-transform: translate(-199px, 0) rotate(32deg);
+    transform: translate(-199px, 0) rotate(32deg)
+}
+
+#left1 {
+    -webkit-transform-origin: 796px 0;
+    -webkit-transform: translate(-199px, 0) rotate(-32deg);
+    -moz-transform-origin: 796px 0;
+    -moz-transform: translate(-199px, 0) rotate(-32deg);
+    -o-transform-origin: 796px 0;
+    -o-transform: translate(-199px, 0) rotate(-32deg);
+    transform-origin: 796px 0;
+    transform: translate(-199px, 0) rotate(-32deg)
+}
+
+#right2, #left2 {
+    width: 796px;
+    height: 1120px;
+    overflow: hidden
+}
+
+#right2>div, #left2>div {
+    -webkit-box-shadow: 0 0 11px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0 0 11px rgba(0, 0, 0, .5);
+    -o-box-shadow: 0 0 11px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 11px rgba(0, 0, 0, .5);
+    width: 398px;
+    height: 560px;
+    overflow: hidden
+}
+
+#right2>div {
+    -webkit-transform: translate(1060px, -275px) rotate(32deg);
+    -moz-transform: translate(1060px, -275px) rotate(32deg);
+    -o-transform: translate(1060px, -275px) rotate(32deg);
+    transform: translate(1060px, -275px) rotate(32deg);
+    background: url('http://www.arpia.be/book/img/single-left.jpg')
+}
+
+#left2>div {
+    -webkit-transform: translate(-662px, -275px) rotate(-32deg);
+    -moz-transform: translate(-662px, -275px) rotate(-32deg);
+    -o-transform: translate(-662px, -275px) rotate(-32deg);
+    transform: translate(-662px, -275px) rotate(-32deg);
+    -webkit-transform-origin: 398px 0;
+    -moz-transform-origin: 398px 0;
+    -o-transform-origin: 398px 0;
+    transform-origin: 398px 0;
+    background: url('http://www.arpia.be/book/img/single-right.jpg')
+}
+
+#right2>div>div, #left2>div>div {
+    height: 560px;
+    width: 30px
+}
+
+#right2>div>div {
+    -webkit-transform: translate(-597px, 186px) rotate(-32deg);
+    -moz-transform: translate(-597px, 186px) rotate(-32deg);
+    -o-transform: translate(-597px, 186px) rotate(-32deg);
+    transform: translate(-597px, 186px) rotate(-32deg);
+    float: right;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(150, 150, 150, 0.2)), to(rgba(150, 150, 150, 0)));
+    background: -moz-linear-gradient(right, rgba(150, 150, 150, 0.2), rgba(150, 150, 150, 0))
+}
+
+#left2>div>div {
+    -webkit-transform: translate(597px, 186px) rotate(32deg);
+    -moz-transform: translate(597px, 186px) rotate(32deg);
+    -o-transform: translate(597px, 186px) rotate(32deg);
+    transform: translate(597px, 186px) rotate(32deg);
+    float: left;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(150, 150, 150, 0.2)), to(rgba(150, 150, 150, 0)));
+    background: -moz-linear-gradient(left, rgba(150, 150, 150, 0.2), rgba(150, 150, 150, 0))
+}
+
