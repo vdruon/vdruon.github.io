@@ -10,10 +10,6 @@
   }
 }
 
-.not-mobile, .mobile {
-  display: none;
-}
-
 /* MOBILE PART */
 
 #container-hide {
