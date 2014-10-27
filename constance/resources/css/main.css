@@ -22,3 +22,12 @@ p {
 p, h1 {
   color: white;
 }
+
+.button {
+  width: 120px;
+  height: 60px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 500;
+  border: 1px solid #ffffff;
+}
