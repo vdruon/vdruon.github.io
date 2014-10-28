@@ -23,6 +23,10 @@ p, h1 {
   color: white;
 }
 
+.button-group {
+  color: white;
+}
+
 .button {
   width: 120px;
   height: 60px;

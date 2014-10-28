@@ -21,7 +21,7 @@ $(document).ready(function() {
         }
       }
      }).done(function(response) {
-        $(".button-group").hide();
+        $(".button-group").html("Tu viens de m'envoyer un message qui dit : " + text);
      });
   }
 
