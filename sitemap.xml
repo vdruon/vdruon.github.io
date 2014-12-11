@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url>
   <loc>http://vdruon.github.io/</loc>
-  <lastmod>2014-11-24T20:46:04+00:00</lastmod>
-</url>
-<url>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1</priority>
+ </url>
+ <url>
   <loc>http://vdruon.github.io/experiences.html</loc>
-  <lastmod>2014-11-24T20:46:04+00:00</lastmod>
-</url>
-<url>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+ </url>
+ <url>
   <loc>http://vdruon.github.io/work.html</loc>
-  <lastmod>2014-11-24T20:46:04+00:00</lastmod>
-</url>
-<url>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+ </url>
+ <url>
   <loc>http://vdruon.github.io/skills.html</loc>
-  <lastmod>2014-11-24T20:46:04+00:00</lastmod>
-</url>
-<url>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+ </url>
+ <url>
+  <loc>http://vdruon.github.io/blog</loc>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+ </url>
+ <url>
   <loc>http://vdruon.github.io/index.html</loc>
-  <lastmod>2014-11-24T20:46:04+00:00</lastmod>
-</url>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+ </url>
+ <url>
+  <loc>http://vdruon.github.io/blog/tags/other.html</loc>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.4</priority>
+ </url>
+ <url>
+  <loc>http://vdruon.github.io/blog/other/first-post.html</loc>
+  <lastmod>2014-12-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.4</priority>
+ </url>
 </urlset>
