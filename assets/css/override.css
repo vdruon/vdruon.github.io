@@ -1,0 +1,36 @@
+.swatch-black h2, .swatch-black h3, .swatch-black h4, .swatch-black h5, .swatch-black h6, [class*=swatch-] .swatch-black h1, [class*=swatch-] .swatch-black h2, [class*=swatch-] .swatch-black h3, [class*=swatch-] .swatch-black h4, [class*=swatch-] .swatch-black h5, [class*=swatch-] .swatch-black h6 {
+  color: #C42D30;
+}
+
+.swatch-black .bordered:after, .swatch-black .bordered>a:after, [class*=swatch-] .swatch-black .bordered:after, [class*=swatch-] .swatch-black .bordered>a:after{
+    background: #C42D30;
+}
+
+.swatch-black, [class*=swatch-] .swatch-black {
+  color: #C42D30;
+}
+
+.swatch-white a, [class*=swatch-] .swatch-white a {
+  color: #EE6E73
+}
+
+.swatch-white a:hover, [class*=swatch-] .swatch-white a:hover {
+  color: #C42D30;
+}
+
+.swatch-white .btn-primary, .swatch-white button, .swatch-white input[type=submit], [class*=swatch-] .swatch-white .btn-primary, [class*=swatch-] .swatch-white button, [class*=swatch-] .swatch-white input[type=submit] {
+  background-color:  #C42D30;
+}
+
+.swatch-white .btn-primary:hover, .swatch-white button:hover, .swatch-white input[type=submit]:hover, [class*=swatch-] .swatch-white .btn-primary:hover, [class*=swatch-] .swatch-white button:hover, [class*=swatch-] .swatch-white input[type=submit]:hover {
+  background-color: #EE6E73;
+}
+
+.swatch-white ::selection, [class*=swatch-] .swatch-white ::selection {
+  background: #C42D30;
+  color: #fff;
+}
+
+.swatch-black i, .swatch-black small a:hover, [class*=swatch-] .swatch-black i, [class*=swatch-] .swatch-black small a:hover {
+  color: #4c4c4c;
+}
